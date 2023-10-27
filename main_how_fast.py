@@ -39,7 +39,7 @@ def typing(event):
     #gets the input as an event
     value = event.widget.get()
     #compare the input with the random sentense
-    if value == 'aura':
+    if value == phrase:
         #if they are the same, te time stops 
         end_time = time.perf_counter()
         #measures how many keys do you press per second
